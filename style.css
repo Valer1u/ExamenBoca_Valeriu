@@ -1,2 +1,36 @@
+body {
+    background-color: #f0f8ff; /* albastru deschis fundal */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #1e90ff; /* albastru închis pentru titlu */
+    text-align: center;
+}
+
 p {
+    color: #333333; /* gri închis pentru text */
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Stil pentru imagine */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px; /* se potrivește ecranului */
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+}
+
+/* Stil pentru linkuri, dacă le vei adăuga */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
